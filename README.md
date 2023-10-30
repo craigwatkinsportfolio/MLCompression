@@ -1,5 +1,5 @@
 # A Machine Learning Based Compression Algorithm for Satellite Images 
-A Machine Learning Based Compression Algorithm for Satellite Images
+
 Overview:
 This project contains compression/decompression algorithms trained specifically on satellite imagery. It use a Feed Forward Neural Network to predict the next pixel based on surrounding pixels and pixels in other color channels. Prediction accuracy allows for greater compression ratios by limiting the amount of information that has to be stored in order to faithfully reconstruct the image. The models in this project achieved a lossless compression ratio consistently superior to lossless PNG compression on the test images.
 
